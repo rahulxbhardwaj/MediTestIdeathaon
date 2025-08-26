@@ -1,10 +1,25 @@
 # Overview
 
-This is a full-stack web application built with React and Express.js, featuring a medical testing interface called "MediTest". The application uses a PostgreSQL database with Drizzle ORM for data management and shadcn/ui components for the frontend design system.
+This project contains two versions of the MediTest website:
+
+1. **Original Full-Stack Version** - React + Express.js with PostgreSQL database and shadcn/ui components
+2. **Vercel-Ready Version** - Next.js static website optimized for deployment (`meditest-nextjs/` folder)
+
+The MediTest website is a clean, educational single-page site explaining a multi-disease diagnostic test strip that can detect Anemia, Malaria, Typhoid, and Diabetes from a single drop of blood.
 
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+# Recent Changes (August 26, 2024)
+
+## Created Vercel-Ready Next.js Version
+- Built complete Next.js version in `meditest-nextjs/` folder
+- Converted React + Express architecture to static Next.js site
+- Optimized for Vercel deployment with static export capability
+- Added comprehensive SEO meta tags and Open Graph support
+- Maintained all original design elements and content
+- Created deployment guide with 3 deployment options
 
 # System Architecture
 
